@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: content-box;
+  
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+.menu-icon {
+  margin: 40px 50px;
+  position: fixed;
+  z-index: 10;
+  top: 10px;
+  right: 5px;
+}
+
+.menu-icon img {
+  width: 30px;
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.titulo {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+
+.navbar-header {
+  font-size: 25px;
+  margin: 10px;
+  padding: 20px 30px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 30vw;
+  height: 100%;
+  font-weight: 400;
+  background-color: rgb(233, 231, 231);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: transform .3s ease-in-out;
+  transform: translate(110%);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.spread {
+  transform: translate(0%);
+}
+
+
+
+.nav-link {
+  display: block;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: darkblue;
+  margin: 10px;
+
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+.nav-link:hover, .nav-link:focus {
+    background-size: 100% 2px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+.main-section {
+  text-align: justify;
+  min-width: 400px;
+  margin: 0px 25px;
+}
+
+h4 {
+  margin-top: 7px;
+}
+
+code {
+  font-size: 18px;
+}
+
+#code-html {
+  font-size: 18px;
+  width: 250px;
+  background-color: lightgrey;
+  margin-top: 20px;
+}
+
+

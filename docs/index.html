@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Pagina Tributo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main id="main-doc">
+      <div class="menu-icon" id="icono-menu">
+        <img src="/lista.png" alt="" class="icono" >
+      </div>
+				<nav class="navbar spread" id="menu">
+          <div class="contenedor-link">
+					  <header class="navbar-header">Bienvenido HTML</header>
+						<a class="nav-link" href="#Introduccion_HTML">Introduccion HTML</a>
+						<a class="nav-link" href="#Primeras_especificaciones_de_HTML">Primeras especificaciones de HTML</a>
+						<a class="nav-link" href="#Nociones_basicas_de_HTML">Nociones basicas de HTML</a>
+						<a class="nav-link" href="#Marcador_HTML">Marcador HTML</a>
+						<a class="nav-link" href="#Historia_del_Estandar">Historia del Estandar</a>
+          </div>
+				</nav>
+        <h1 class="titulo">Bienvenido HTML</h1>
+		<section id="Introduccion_HTML" class="main-section">
+			<header class="title">Introduccion HTML</header>
+				<p>HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcado de hipertexto’), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. Es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio WWW, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación. HTML se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide Web (WWW). Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos los navegadores actuales han adoptado.​
+				El lenguaje HTML basa su filosofía de desarrollo en la diferenciación. Para añadir un elemento externo a la página (imagen, vídeo, script, entre otros.), este no se incrusta directamente en el código de la página, sino que se hace una referencia a la ubicación de dicho elemento mediante texto. De este modo, la página web contiene solamente texto mientras que recae en el navegador web (interpretador del código) la tarea de unir todos los elementos y visualizar la página final. Al ser un estándar, HTML busca ser un lenguaje que permita que cualquier página web escrita en una determinada versión, pueda ser interpretada de la misma forma (estándar) por cualquier navegador web actualizado.</p>
+		</section>
+		<section id="Primeras_especificaciones_de_HTML" class="main-section">
+			<header class="title">Primeras especificaciones de HTML</header>
+				<p>Tim Berners-Lee (TBL) en 1991​ describe 18 elementos que incluyen el diseño inicial y relativamente simple de HTML. Trece de estos elementos todavía existen en HTML 4.​
+				Berners-Lee consideraba el HTML una ampliación de SGML, pero no fue formalmente reconocida como tal hasta la publicación a mediados de 1993, por la IETF (en español: Grupo de Trabajo de Ingeniería de Internet), de una primera proposición para una especificación del HTML: el borrador del Hypertext Markup Language de Berners-Lee y Dan Connolly, que incluía una Definición de Tipo de Documento SGML para definir la gramática. El borrador expiró a los seis meses, pero fue notable por su reconocimiento de la etiqueta propia del navegador Mosaic usada para insertar imágenes sin cambio de línea, que reflejaba la filosofía del IETF de basar estándares en prototipos con éxito. ​De la misma manera, el borrador competidor de Dave Raggett HTML+ (Hypertext Markup Format) (Formato de Marcaje de Hipertexto), de finales de 1993, sugería estandarizar características ya implementadas, como las tablas.</p>
+		</section>
+			<section id="Nociones_basicas_de_HTML" class="main-section">
+				<header class="title">Nociones basicas de HTML</header>
+					<p>
+						El lenguaje HTML puede ser creado y editado con cualquier editor de textos básico, como puede ser Gedit en GNU/Linux, el Bloc de notas de Windows, o cualquier otro editor que admita texto sin formato como GNU Emacs, Microsoft Wordpad, TextPad, Vim, Notepad++, entre otros.
+						Existen, además, otros editores para la realización de sitios web con características WYSIWYG (What You See Is What You Get, o en español: «lo que ves es lo que obtienes»). Estos editores permiten ver el resultado de lo que se está editando en tiempo real, a medida que se va desarrollando el documento. Ahora bien, esto no significa una manera distinta de realizar sitios web, sino que una forma un tanto más simple, ya que estos programas, además de tener la opción de trabajar con la vista preliminar, tiene su propia sección HTML, la cual va generando todo el código a medida que se va trabajando. Algunos ejemplos de editores WYSIWYG son KompoZer, Microsoft FrontPage o Adobe Dreamweaver.
+						Combinar estos dos métodos resulta muy interesante, ya que de alguna manera se ayudan entre sí. Por ejemplo, si se edita todo en HTML y el desarrollador olvida algún código o etiqueta, basta con dirigirse al editor visual o WYSIWYG y se continúa ahí la edición o viceversa, ya que hay casos en que resulta más rápido y fácil escribir directamente el código de alguna característica que el usuario desea adherir al sitio que buscar la opción en el programa mismo.
+					</p>
+			<div id="code-html">
+					<code>
+						&lt;!DOCTYPE HTML&gt;<br>
+						&lt;html&gt;<br>
+						&lt;head&gt;<br>
+						&lt;meta charset="utf-8"/&gt;<br>
+						&lt;title&gt;Ejemplo1&lt;/title&gt;<br>
+						&lt;/head&gt;<br>
+						&lt;body&gt;<br>
+						&lt;p&gt;Párrafo de ejemplo&lt;/p&gt;<br>
+						&lt;/body&gt;<br>
+						&lt;/html&gt;
+					</code>
+					</div>
+				</section>
+		<section id="Marcador_HTML" class="main-section">
+				<header class="title">Marcador HTML</header>
+					<p>El HTML se escribe en forma de «etiquetas», rodeadas por corchetes angulares (&lt,&gt;,/). El HTML también puede describir, hasta un cierto punto, la apariencia de un documento, y puede incluir o hacer referencia a un tipo de programa llamado script, el cual puede afectar el comportamiento de navegadores web y otros procesadores de HTML.
+					HTML también sirve para referirse al contenido del tipo de MIME text/html o todavía más ampliamente como un término genérico para el HTML, ya sea en forma descendida del XML (como XHTML 1.0 y posteriores) o en forma descendida directamente de SGML (como HTML 4.01 y anteriores). HTML consta de varios componentes vitales, entre ellos los elementos y sus atributos, tipos de data y la declaración de tipo de documento.</p>
+					<h4>Elementos</h4>
+					<p>Los elementos son la estructura básica de HTML. Los elementos tienen dos propiedades básicas: atributos y contenido. Cada atributo y contenido tiene ciertas restricciones para que se considere válido al documento HTML. Un elemento generalmente tiene una etiqueta de inicio, por ejemplo:</p> 
+					<code>&lt;nombre-de-elemento&gt;</code><br> y una etiqueta de cierre por ejemplo:<br><code>&lt;/nombre-de-elemento&gt;
+					</code>
+					<p>Los atributos del elemento están contenidos en la etiqueta de inicio y el contenido está ubicado entre las dos etiquetas, por ejemplo:
+					</p>
+					<code>&lt;nombre-de-elemento atributo="valor"&gt;Contenido&lt;/nombre-de-elemento&gt;
+					</code> 
+					<p>Algunos elementos, tales como <code>&lt;br&gt;</code>, no tienen contenido ni llevan una etiqueta de cierre.</p>
+					<h4>Atributos</h4>
+					<p>En su mayoría los atributos de un elemento son pares nombre-valor, separados por un signo de igual «=» y escritos en la etiqueta de comienzo de un elemento, después del nombre del elemento. El valor puede estar rodeado por comillas dobles o simples, aunque ciertos tipos de valores pueden estar sin comillas en HTML (pero no en XHTML).​De todas maneras, dejar los valores sin comillas es considerado poco seguro.​ En contraste con los pares nombre-elemento, hay algunos atributos que afectan al elemento simplemente por su presencia.</p>
+					</section>
+					<section id="Historia_del_Estandar" class="main-section">
+					<header class="title">Historia del Estandar</header>
+		<ul>
+				<li><p>En 1989 existían dos técnicas que permitían vincular documentos electrónicos, por un lado los hipervínculos o enlaces (hiperlinks o links) y por otro lado un poderoso lenguaje de etiquetas denominado SGML. Por entonces, Tim Berners-Lee, quien trabajaba en el Centro Europeo de Investigaciones Nucleares CERN da a conocer a la prensa que estaba trabajando en un sistema que va a permitir acceder a ficheros en línea que funcionaba sobre redes de computadoras o máquinas electrónicas basadas en el protocolo TCP/IP. Inicialmente fue desarrollado para que se pudiera compartir fácilmente información entre científicos de distintas universidades e institutos de investigación de todo el mundo.</p></li>
+				<li><p>A principios de 1990, define por fin el HTML como un subconjunto del conocido SGML y crea algo más valioso incluso, el World Wide Web.</p></li>
+				<li><p>Tim Berners-Lee creó el proyecto World Wide Web (Tejido o Telaraña Mundial), así como un sistema que facilitaba la lectura de información, mediante un programa de navegación. Sería el primer navegador web, llamado WorldWideWeb, y desarrollado durante la segunda mitad del año 1990; siendo tiempo después rebautizado como Nexus, para evitar confusiones por su nombre que era igual al de la tecnología que representaba. Le siguieron otros dos navegadores: el Line Mode Browser y el ViolaWWW. Este último, desarrollado en 1992, fue el primer navegador en popularizarse entre los primeros usuarios de la World Wide Web.</p></li>
+				<li><p>Pei-Yuan Wei presentó el ViolaWWW, que funcionaría en modo texto y sobre un sistema operativo UNIX.</p>
+				<li><p>Los trabajos para crear un sucesor del HTML, denominado HTML +, comenzaron a finales de 1993. HTML+ se diseñó originalmente para ser un superconjunto del HTML que permitiera evolucionar gradualmente desde el formato HTML anterior. A la primera especificación formal de HTML+ se le dio, por lo tanto, el número de versión 2 para distinguirla de las propuestas no oficiales previas. Los trabajos sobre HTML+ continuaron, pero nunca se convirtió en un estándar, a pesar de ser la base formalmente más parecida al aspecto compositivo de las especificaciones actuales.</p></li>
+				<li><p>El borrador del estándar HTML 3.0 fue propuesto por el recién formado W3C en marzo de 1995. Con él se introdujeron muchas nuevas capacidades; por ejemplo, facilidades para crear tablas, hacer que el texto fluyese alrededor de las figuras y mostrar elementos matemáticos complejos. Aunque se diseñó para ser compatible con HTML 2.0, era demasiado complejo para ser implementado con la tecnología de la época, y cuando el borrador del estándar expiró en septiembre de 1995, se abandonó debido a la carencia de apoyos de los fabricantes de navegadores web. El HTML 3.1 nunca llegó a ser propuesto oficialmente, y el estándar siguiente fue el HTML 3.2, que abandonaba la mayoría de las nuevas características del HTML 3.0 y, a cambio, adoptaba muchos elementos desarrollados inicialmente por los navegadores web Netscape y Mosaic. La posibilidad de trabajar con fórmulas matemáticas que se había propuesto en el HTML 3.0 pasó a quedar integrada en un estándar distinto llamado MathML.</p></li>
+				<li><p>En 1997, HTML 4.0 se publicó como una recomendación del W3C. HTML 4.0 adoptó muchos elementos específicos desarrollados inicialmente para un navegador web concreto, pero al mismo tiempo comenzó a limpiar el HTML señalando algunos de ellos como «desaprobados» (deprecated, en inglés).</p></li>
+				<li><p>HTML 4.0 implementa características como XForms 1.0 que no necesitan implementar motores de navegación que eran incompatibles con algunas páginas web HTML. En 2004 la W3C reabrió el debate de la evolución del HTML, y se dieron a conocer las bases para la versión HTML5. No obstante, este trabajo fue rechazado por los miembros del W3C y se daría preferencia al desarrollo del XML.</p></li>
+				<li><p>Apple, Mozilla y Opera anunciaron su interés en seguir trabajando en el proyecto bajo el nombre de WHATWG, que se basa en la compatibilidad con tecnologías anteriores.</p></li>
+				<li><p>En 2006, el W3C se interesó en el desarrollo de HTML5, y en 2007 se unió al grupo de trabajo del WHATWG para unificar el proyecto.</p></li>
+		</ul>
+</section>
+	<script src="app.js"></script>
+</body>
+</html>
